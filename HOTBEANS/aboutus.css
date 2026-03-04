@@ -1,0 +1,228 @@
+body {
+    background-color: rgb(4, 183, 253);
+  }
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold ;
+  }
+/* Reset some default styles */
+* {
+      box-sizing: border-box;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px; /* Increase the font size */
+      line-height: 1.8; /* Add spacing between lines */
+      margin: 20px; /* Add spacing around the content */
+      padding: 10px;
+      border-radius: 5px; /* Optional: Rounded corners */
+    }
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    background-color: #000000;
+    padding: 10px 20px;
+}
+/* Logo styling */
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    background-color: #000000;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* Navigation Links */
+.navlink {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navlink li a {
+    text-decoration: none;
+    color: rgb(4, 183, 253);
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navlink li a:hover {
+    color: #ffffff; /* Optional hover effect */
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-left: auto; /* Pushes icons to the extreme right */
+    align-items: center;
+}
+
+.social-icon {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: rgb(4, 183, 253); /* Optional hover effect */
+}
+.footer {
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text color */
+  padding: 40px 20px; /* More padding for better spacing */
+  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Stack all sections vertically */
+  align-items: center; 
+  margin: auto; /* Center the entire footer */
+  text-align: center; /* Center the text */
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(76, 78, 79); /* Highlighted text color */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: rgb(4, 183, 253); /* Hover effect */
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 15px; /* Spacing between icons */
+  justify-content: center; /* Center-align icons */
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: rgb(4, 183, 253); /* Hover effect */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  background-color: #222; /* Slightly darker background */
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: rgb(4, 183, 253); /* Hover effect */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  background-color: #222; /* Slightly darker background */
+  margin-top: 20px;
+  border-top: 1px solid #444;
+}
+/* Basic styling */
+page-container {
+display: flex;
+flex-direction: column;
+justify-content: space-between; /* Push footer to the bottom */
+height: 100%; /* Take up full height of the viewport */
+}
+  .navlink li a,
+  .social-icons .social-icon {
+      margin-right: 10px;
+  }
+  /* About Us Section */
+.about-us {
+  background-color: rgb(4, 183, 253); /* Red background */
+  color: rgb(0, 0, 0);             /* Text color */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about-container {
+  display: flex;                 /* Align items side by side */
+  justify-content: space-between; /* Add space between image and text */
+  align-items: center;           /* Center align vertically */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-image img {
+  width: 700px; /* Adjust width as needed */
+  height: auto;
+  border: 2px solid black;      /* Black border around image */
+  border-radius: 5px;           /* Slight rounding for corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+.about-info {
+  max-width: 400px; /* Limit text width */
+  text-align: center; /* Center-align the text */
+}
+
+.about-info h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-info p {
+  line-height: 1.8; /* Improve readability */
+}
+.Vision {
+text-align: center;
+}
